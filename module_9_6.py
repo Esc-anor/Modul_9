@@ -14,6 +14,11 @@ def all_variants(text):
 
 
 # исходные данные
-a = all_variants("abc")
+"""a = all_variants("abc")
+for i in a:
+    print(i)"""
+
+
+a = all_variants("abc dfj")
 for i in a:
     print(i)
